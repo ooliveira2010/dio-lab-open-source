@@ -1,4 +1,4 @@
-Olá a todos, Sou Osmar Engenheiro de Telecomunicações graduado a mais de 20 anos pelo INATEL. No momento estou em busca de recolocação no mercado e estudando novas tecnologias e para a entrega do meu desafio segue parte dos meus estudos para desenvolvimento da Carreira:
+Olá a todos, Sou Osmar Engenheiro de Telecomunicações graduado a mais de 20 anos pelo INATEL. No momento estou em busca de recolocação no mercado e estudando novas tecnologias e para a entrega do meu desafio segue exemplo dos estudos para desenvolvimento da Carreira:
 
 ```markdown
 # Desenvolvimento de Carreira - IA para Devs
@@ -7,7 +7,8 @@ Olá a todos, Sou Osmar Engenheiro de Telecomunicações graduado a mais de 20 a
 Este projeto documenta minha jornada no treinamento DIO, Santander 2024 - Fundamentos de IA para Devs. Inclui um roteiro de desenvolvimento de carreira, habilidades adquiridas, e projetos realizados durante o curso.
 
 ## Estrutura do Projeto
-```
+
+```plaintext
 career-development/
 │
 ├── docs/
@@ -28,6 +29,7 @@ career-development/
 ├── .gitignore
 ├── README.md
 └── LICENSE
+
 ```
 
 ## Uso
@@ -47,8 +49,6 @@ career-development/
 4. Push para a branch (`git push origin feature/nova-feature`).
 5. Abra um Pull Request.
 
-### Exemplo de `docs/roadmap.md` resumido:
-```markdown
 # Roteiro de Desenvolvimento de Carreira
 
 ## Passos
