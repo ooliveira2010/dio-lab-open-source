@@ -1,95 +1,92 @@
-<h1>
-    <a href="https://www.dio.me/">
-     <img align="center" width="40px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png"></a>
-    <span> Contribuindo em um Projeto Open Source no GitHub</span>
-</h1>
+Olá a todos, Sou Osmar Engenheiro de Telecomunicações graduado a mais de 20 anos pelo INATEL. No momento estou em busca de recolocação no mercado e estudando novas tecnologias e para a entrega do meu desafio segue parte dos meus estudos para desenvolvimento da Carreira:
 
-Repositório desenvolvido para fins didáticos, com a disponibilização de materiais de apoio e exercício prático para o lab **Contribuindo em um Projeto Open Source no GitHub** da [Digital Innovation One](https://www.dio.me/).
+```markdown
+# Desenvolvimento de Carreira - IA para Devs
 
-[![Link do Lab](https://img.shields.io/badge/▶-000?style=for-the-badge&logo=movie&logoColor=E94D5F)](https://web.dio.me/lab/desafio-de-projeto-contribuindo-em-um-projeto-open-source-no-github/learning/913f26fd-1018-4643-b59a-6356ea77dc2e) 
-[![Link do Lab](https://img.shields.io/badge/Acesse%20o%20Lab%20na%20Plataforma-E94D5F?style=for-the-badge)](https://web.dio.me/lab/desafio-de-projeto-contribuindo-em-um-projeto-open-source-no-github/learning/913f26fd-1018-4643-b59a-6356ea77dc2e)
+## Descrição
+Este projeto documenta minha jornada no treinamento DIO, Santander 2024 - Fundamentos de IA para Devs. Inclui um roteiro de desenvolvimento de carreira, habilidades adquiridas, e projetos realizados durante o curso.
 
-## Objetivo
-Aprender o básico sobre contribuição no GitHub.
+## Estrutura do Projeto
+```
+career-development/
+│
+├── docs/
+│   ├── roadmap.md        # Roteiro de desenvolvimento de carreira
+│   ├── skills.md         # Habilidades adquiridas
+│   └── resources.md      # Recursos de aprendizado
+│
+├── projects/
+│   ├── project1/
+│   │   ├── README.md     # Descrição do projeto 1
+│   │   ├── code/         # Código-fonte do projeto 1
+│   │   └── data/         # Dados utilizados no projeto 1
+│   └── project2/
+│       ├── README.md     # Descrição do projeto 2
+│       ├── code/         # Código-fonte do projeto 2
+│       └── data/         # Dados utilizados no projeto 2
+│
+├── .gitignore
+├── README.md
+└── LICENSE
+```
 
-## Ferramentas
-[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
-[![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)](https://git-scm.com/doc) 
+## Uso
+1. **Roteiro de Desenvolvimento de Carreira:**
+   - Acesse `docs/roadmap.md` para ver o roteiro detalhado.
 
-## Percurso
-<table>
-  <thead>
-    <tr align="left">
-      <th>Nº</th>
-      <th>Etapas</th>
-    </tr>
-  </thead>
-  <tbody align="left">
-    <tr>
-      <td>01</td>
-      <td>Introdução ao Lab</td>
-    </tr>
-    <tr>
-      <td>02</td>
-      <td>Formas de Contribuir num Projeto Open Source</td>
-    </tr>
-    <tr>
-      <td>03</td>
-      <td>Desenvolvendo e Enviando uma Contribuição</td>  
-    </tr>
-    <tr>
-      <td>04</td>
-      <td>Dicas e Materiais de Apoio</td>    
-    </tr>
-  </tbody>
-</table>
+2. **Habilidades:**
+   - Veja `docs/skills.md` para uma lista de habilidades e seu status.
 
----
-## Desafio de Projeto da DIO
-Agora que você já sabe as formas de contribuir em um projeto Open Source, está na hora de colocar em prática o seu conhecimento sobre contribuição no GitHub! <br>
-Para concluir este Desafio de Projeto, basta enviar a **URL do seu "fork" de um projeto Open Source que você contribuiu** para a entrega do desafio na plataforma [DIO](https://www.dio.me/).
+3. **Projetos:**
+   - Cada projeto está em `projects/` com seu próprio README.md.
 
-> [!NOTE]   
-> Por exemplo, a URL https://github.com/falvojr/dio-lab-open-source é o "**fork**" feito pelo usuário do GitHub "`falvojr`" para a contribuição no repositório `dio-lab-open-source`.
+## Contribuição
+1. Faça um fork do repositório.
+2. Crie uma branch (`git checkout -b feature/nova-feature`).
+3. Commit suas alterações (`git commit -m 'Adiciona nova feature'`).
+4. Push para a branch (`git push origin feature/nova-feature`).
+5. Abra um Pull Request.
 
-### Contribua com seu Profile README
-Para contribuir neste repositório, uma das formas é através da contribuição no diretório "**community**", criando um Profile README contendo informações sobre você que deseje compartilhar com a comunidade. <br>
-Para isso, você pode inserir: badges indicando suas habilidades; cards com suas estatísticas no GitHub e projetos que criou, colaborou ou que deseje que outras pessoas colaborem. Além disso, você pode inserir também links para seus desafios de projeto e artigos na plataforma da [Digital Innovation One](https://www.dio.me/). <br>
- Inspire-se consultando os exemplos na pasta [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community), confira alguns utilitários na pasta [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils) e use sua criatividade para criar o seu 😊💙.
+### Exemplo de `docs/roadmap.md` resumido:
+```markdown
+# Roteiro de Desenvolvimento de Carreira
 
-#### Utilitários
+## Passos
 
-[![Badges](https://img.shields.io/badge/Badges-30A3DC?style=for-the-badge)](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/utils/badges/badges.md)
-[![Card Stats](https://img.shields.io/badge/Card%20Stats-E94D5F?style=for-the-badge)](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/utils/cards/github-stats.md)
-[![Badges](https://img.shields.io/badge/Card%20Streak%20States-30A3DC?style=for-the-badge)](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/utils/cards/github-streak-stats.md)
+1. **Fundamentos de Programação**
+   - Python
+   - Estruturas de dados
 
-> [!IMPORTANT]   
-> Confira as instruções antes de enviar a sua contribuição em [CONTRIBUTING.md](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/CONTRIBUTING.md)
+2. **Fundamentos de IA**
+   - Conceitos básicos
+   - Aprendizado de Máquina
 
-### Fórum do Repositório (GitHub Discussions)
-GitHub Discussions é um fórum de comunicação colaborativo dentro do GitHub. Caso tenha dúvidas, você pode abrir uma discussão, dentro de uma categoria apropriada, na aba "Discussions" do repositório do projeto.
+3. **Projetos Práticos**
+   - Implementação de projetos simples
 
-> [!WARNING]  
-> **Atenção:** Antes de criar uma nova discussão, verifique se sua dúvida já foi respondida em discussões anteriores. Use a função de pesquisa para encontrar tópicos relevantes.
+4. **Especialização**
+   - Escolher uma área (e.g., Visão Computacional)
 
----
+5. **Networking**
+   - Participar de comunidades
+```
 
-## Contribua
-[![Star](https://img.shields.io/github/stars/digitalinnovationone/dio-lab-open-source?style=social)](https://github.com/digitalinnovationone/dio-lab-open-source/stargazers)
-[![Forks](https://img.shields.io/github/forks/digitalinnovationone/dio-lab-open-source?style=social)](https://github.com/digitalinnovationone/dio-lab-open-source/forks)
-[![GitHub Issues](https://img.shields.io/github/issues/digitalinnovationone/dio-lab-open-source?style=social)](https://github.com/digitalinnovationone/dio-lab-open-source/issues/)
+### Exemplo de `docs/skills.md` resumido:
+```markdown
+# Habilidades Adquiridas
 
- Este é um projeto feito para a comunidade, então sinta-se livre para contribuir. Algumas formas de contribuição além do seu exemplo de Profile README, é inserir outros utilitários na pasta [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils), ou melhorar a página de pesquisa dos READMEs fazendo modificações nos arquivos da pasta [`docs`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/docs). <br>
- Além disso, você também pode contribuir:
- 
-⚠️ Resolvendo, respondendo ou indicando **issues**
+- **Python**: Em progresso
+- **Machine Learning**: Em progresso
+- **Data Science**: Pendente
+```
 
-⭐ Adicionando aos favoritos (**star**) 
+### Exemplo de `docs/resources.md` resumido:
+```markdown
+# Recursos de Aprendizado
 
-### Membros da comunidade que já contribuiram:
-<a href="https://github.com/digitalinnovationone/dio-lab-open-source/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=digitalinnovationone/dio-lab-open-source"/>
-</a>
+## Cursos Online
+- [Coursera - Machine Learning](https://www.coursera.org/learn/machine-learning)
+- [Udacity - Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning-nanodegree--nd101)
+```
 
-##
-<div align="center">Feito com 💙 por <a href="https://github.com/elidianaandrade">Eli</a>.</div>
+Este modelo mais conciso cobre as informações essenciais de maneira clara e objetiva, facilitando a entrega e a contribuição para o desafio.
